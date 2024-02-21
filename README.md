@@ -10,7 +10,7 @@
 
 # THEORY
 <h3>Vacuum Cleaner Agent:</h3>
-<p>Performance Meaure: Minimize energy consumption, maximize dirt pick up. Making this precise: one point for each clean square over lifetime of 1000 steps.</p>
+<p>Performance Measure: Minimize energy consumption, maximize dirt pick up. Making this precise: one point for each clean square over lifetime of 1000 steps.</p>
 <p>Environment: Two squares, dirt distribution unknown, assume actions are deterministic and environment is static(clean squares stay clean).</p>
 <p>Actuators: Left, Right, Suck, NoOp.</p>
 <p>Sensors: Agent can perceive its location and whether location is dirty</p>
@@ -31,7 +31,7 @@
     <td><strong>Cleaning Dirt</strong></td>
      <td><strong>Rooms, floor</strong></td>
     <td><strong>Dirt,Cleaning</strong></td>
-    <td><strong>Location,Sensing Dirt</strong></td>
+    <td><strong>Location,Motion</strong></td>
   </tr>
 </table>
 <hr>
