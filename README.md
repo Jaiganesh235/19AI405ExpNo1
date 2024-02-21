@@ -9,9 +9,10 @@
 <br>
 
 # THEORY
-<h3>Vacuum Cleaner agent:</h3>
-<p>Vaccum Cleaner agent:
-The VacuumCleanerAgent is a Python class that simulates the behavior of a basic vacuum cleaner in a two-location environment ("A" and "B"). The agent can perform four actions: move left, move right, suck dirt, and do nothing. Its state includes the current location and dirt status in each location. The agent's initial state is at location "A" with no dirt. Actions like moving and sucking dirt can change its state, and the print_status method displays the current location and dirt status. This agent provides a foundation for simple vacuum cleaner simulations and can be adapted for more complex scenarios.</p>
+<h3>Vacuum Cleaner Agent:</h3>
+<p>Performance Meaure: Minimize energy consumption, maximize dirt pick up. Making this precise: one point for each clean square over lifetime of 1000 steps.
+  Environment:
+</p>
 <hr>
 
 # PEAS DESCRIPTION:
