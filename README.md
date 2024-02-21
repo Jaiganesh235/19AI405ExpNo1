@@ -10,9 +10,11 @@
 
 # THEORY
 <h3>Vacuum Cleaner Agent:</h3>
-<p>Performance Meaure: Minimize energy consumption, maximize dirt pick up. Making this precise: one point for each clean square over lifetime of 1000 steps.
-  Environment:
-</p>
+<p>Performance Meaure: Minimize energy consumption, maximize dirt pick up. Making this precise: one point for each clean square over lifetime of 1000 steps.</p>
+<p>Environment: Two squares, dirt distribution unknown, assume actions are deterministic and environment is static(clean squares stay clean).</p>
+<p>Actuators: Left, Right, Suck, NoOp.</p>
+<p>Sensors: Agent can perceive its location and whether location is dirty</p>
+
 <hr>
 
 # PEAS DESCRIPTION:
