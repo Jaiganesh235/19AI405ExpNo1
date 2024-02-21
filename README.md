@@ -3,16 +3,18 @@
 <h3>Register Number: 212222240037</h3>
 
 
-<h3>AIM:</h3>
+# AIM:
 <br>
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
 <br>
-<h3>Theory</h3>
+
+# THEORY
 <h3>Vacuum Cleaner agent:</h3>
 <p>Vaccum Cleaner agent:
 The VacuumCleanerAgent is a Python class that simulates the behavior of a basic vacuum cleaner in a two-location environment ("A" and "B"). The agent can perform four actions: move left, move right, suck dirt, and do nothing. Its state includes the current location and dirt status in each location. The agent's initial state is at location "A" with no dirt. Actions like moving and sucking dirt can change its state, and the print_status method displays the current location and dirt status. This agent provides a foundation for simple vacuum cleaner simulations and can be adapted for more complex scenarios.</p>
 <hr>
-<h3>PEAS DESCRIPTION:</h3>
+
+# PEAS DESCRIPTION:
 <table>
   <tr>
     <td><strong>Agent Type</strong></td>
@@ -42,7 +44,7 @@ The VacuumCleanerAgent is a Python class that simulates the behavior of a basic 
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each cleaning performance incremented, for each movement performance decremented</p>
 
-## CODE:
+# PROGRAM CODE:
 ```
 import random
 import time
@@ -212,9 +214,13 @@ print(environment.status)
 environment.run(steps=10)
 print(environment.status)
 print(agent.performance)
+
 ```
-## OUTPUT:
+# OUTPUT:
 
 ![306370405-0e780de5-71dd-4d61-a02a-a709d59c2851](https://github.com/niraunjana/19AI405ExpNo1/assets/119395610/b55274ad-c94b-4cb0-9a6f-d4295be7b350)
+
+# RESULT:
+Thus, an AI agent is developed.
 
 
